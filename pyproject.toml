@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tts-demo"
+version = "0.1.0"
+description = ""
+authors = ["Vili Hätönen <vili@emblica.fi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.54.1"
+notebook = "^7.2.2"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
